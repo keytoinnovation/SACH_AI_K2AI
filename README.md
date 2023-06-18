@@ -82,16 +82,15 @@ To get started with SACH-AI, follow these steps:
 ### Usage
 1. Stand Alone
 
-    0. Open SACH-AI [Google Colab]():
+    0. Open SACH-AI [Google Colab]()
     1. Select atleast `T4 GPU` in the Runtime
-
-    2. Replace the `ENV` variables with your own
-    3. Access SACH-AI `API` by visiting the `ngrok` url in your web browser.
+    2. Replace the `ENVIRONMENT` variables with your own; Run the Google Colab
+    4. Access SACH-AI `API` by visiting the `ngrok` url in your web browser.
 
 2. Telegram Bot
 
-    0. Open SACH-AI [Google Colab]():
-    1. Select atleast `T4 GPU` in the Runtime and run the colab
+    0. Open SACH-AI [Google Colab]()
+    1. Select atleast `T4 GPU` in the Runtime; Replace the `ENVIRONMENT` variables with your own; Run the Google Colab
     2. Create a Telegram Bot from [@botfather](https://t.me/botfather)
     3. In `SACH-AI/env.py` replace the values with your own
         ```python
